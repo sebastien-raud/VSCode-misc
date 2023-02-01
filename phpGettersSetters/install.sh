@@ -2,7 +2,7 @@
 
 if [ !-d "~/.config/Code/User/phpGettersSetters" ]
 then
-  mkdir ~/.config/Code/User/phpGettersSetters
+  mkdir "~/.config/Code/User/phpGettersSetters"
 fi
 
 if [ !-d "~/.config/Code/User/phpGettersSetters" ]
@@ -11,6 +11,6 @@ then
   exit
 fi
 
-cd ~/.config/Code/User/phpGettersSetters
+cd "~/.config/Code/User/phpGettersSetters"
 wget https://github.com/sebastien-raud/VSCode-misc/phpGettersSetters/getter.js
 wget https://github.com/sebastien-raud/VSCode-misc/phpGettersSetters/setter.js
