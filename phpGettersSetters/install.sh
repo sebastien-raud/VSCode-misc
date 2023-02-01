@@ -5,7 +5,7 @@ then
   mkdir ~/.config/Code/User/phpGettersSetters
 fi
 
-if [ ! -d ~/.config/Code/User/phpGettersSetter" ]
+if [ ! -d ~/.config/Code/User/phpGettersSetter ]
 then
   echo "L'extension php-getters-setters ne doit pas être installée"
   exit
